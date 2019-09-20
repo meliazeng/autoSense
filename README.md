@@ -8,15 +8,7 @@ The system is designed to analysis customer interests on Auto Dealership by catc
 - Door: The basic unit in which activities is being track and collected by sensor
 Activity: Door open (Site on, duration of proximity)
 ## Pattern to be analysis
-Popularity against Model
-Popularity against Brand
-Popularity against color
-Popularity against type
-Popularity against Codition
-Popularity against Price range
-Popularity against Condition
-Popularity against individual car
-Popularity against Dispaly spot
+Popularity of **Model** / Popularity of **Brand** / Popularity of **color** / Popularity of **type** / Popularity of **Codition** / Popularity of **Price range** / Popularity of **Condition** / Popularity of **individual car** / **Popularity of Dispaly spot**
 ## Information display method
 - Real time Dashboard
 - Pipe Chart
