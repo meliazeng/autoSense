@@ -22,9 +22,9 @@ The solution is designed to analysis customer interests on Auto Dealership by ca
 - Real time Dashboard
 - Power BI analysis
 ```
-- Pipe Chart
-- Bar Chart
-- Line Graph
+* Pipe Chart
+* Bar Chart
+* Line Graph
 ```
 ## Scarnio for sensoring
 - Visitor open the door, get into the card and close the door. Open the door again and leave the seat, close the door. (Interested and being attracted) 
