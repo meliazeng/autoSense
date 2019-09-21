@@ -30,7 +30,42 @@ The solution is designed to analysis customer interests on Auto Dealership by ca
 - Visitor open the door, get into the card and close the door. Open the door again and leave the seat, close the door. (Interested and being attracted) 
 - Visitor open the door and close the door without getting inside.  (interested but not being attracted)
 - Visitor open and close the door, in and out to the car for multiple time, all activities are in a continue maner. (very interested)
-## i
+# Solution Design
+The solution contains tow parts - Sensor collection and Data processing unit. This document foucs on Data processing unit only. 
+## POC stage
+The design for SQL database
 
-
-To accomplish this requirement, the solution contains two parts:
+- Tbl_owner_store
+```
+- ID : uniqueidentifier
+- Name : nvarchar(100)
+- Address: nvarchar(200)
+- Parent: uid
+``` 
+- Tbl_car
+```
+- ID : uniqueidentifier
+- Name: nvarchar(100)
+- url: nvarchar(200)
+- Serial: nvarchar(100)
+- Position: nvarchar(10)
+- Color: nvarchar(20)
+- Type: int
+- Note: nvarchar(100)
+- Condition: boolean
+```
+- Tbl_Door
+```
+- ID: uniqueidentifier
+- CarID: uid
+- SensorID: uid
+- Note: nvarchar(100)
+```
+-Tbl_Activities
+```
+- ID: uniqueidentifier
+- startTime: DateTime
+- endTime: DateTime
+- DoorID: uid
+- type: int
+```
