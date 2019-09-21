@@ -26,7 +26,7 @@ The solution is designed to analysis customer interests on Auto Dealership by ca
 * Bar Chart
 * Line Graph
 ```
-## Scarnio for sensoring
+## Scenario for sensoring
 - Visitor open the door, get into the card and close the door. Open the door again and leave the seat, close the door. (Interested and being attracted) 
 - Visitor open the door and close the door without getting inside.  (interested but not being attracted)
 - Visitor open and close the door, in and out to the car for multiple time, all activities are in a continue maner. (very interested)
